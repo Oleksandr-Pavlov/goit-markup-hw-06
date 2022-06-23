@@ -67,7 +67,7 @@
         <div class="container">
           <div class="hero-content">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>
+            <button class="button" type="button" data-modal-open>Заказать услугу</button>
           </div>
         </div>
       </section>
@@ -431,6 +431,18 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-wrap">
+          <strong>Подпишитесь на рассылку</strong>
+          <form class="footer-form">
+            <input class="footer-input" type="text" name="email" placeholder="E-mail" />
+            <button class="button subscribe-btn" type="submit">
+              Подписаться
+              <svg class="icon-subscribe" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -438,9 +450,28 @@
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg width="11" height="11">
-            <use href="./images/modal-close.svg#modal-close"></use>
+            <use href="./images/icons.svg#icon-modal-close"></use>
           </svg>
         </button>
+        <strong class="modal-title">Оставьте свои данные, мы вам перезвоним</strong>
+        <form class="modal-form">
+          <label class="modal-form-label">
+            Имя
+            <input class="modal-form-text" type="text" name="" id="" />
+          </label>
+          <label class="modal-form-label">
+            Телефон
+            <input class="modal-form-text" type="text" name="" id="" />
+          </label>
+          <label class="modal-form-label">
+            Почта
+            <input class="modal-form-text" type="text" name="" id="" />
+          </label>
+          <label class="modal-form-label">
+            Комментарий
+            <input class="modal-form-text" type="text" name="" id="" />
+          </label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
